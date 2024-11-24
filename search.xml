@@ -1,20 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>老婆怀孕两个月了</title>
-      <link href="/post/%E8%80%81%E5%A9%86%E6%80%80%E5%AD%95%E4%B8%A4%E4%B8%AA%E6%9C%88%E4%BA%86/"/>
-      <url>/post/%E8%80%81%E5%A9%86%E6%80%80%E5%AD%95%E4%B8%A4%E4%B8%AA%E6%9C%88%E4%BA%86/</url>
-      
-        <content type="html"><![CDATA[<p><img src="https://boringc-1306317834.cos.ap-shanghai.myqcloud.com/IMG_1009.jpg" alt="怀孕图片" title="怀孕图片"></p><div class="video-container">[up主专用，视频内嵌代码贴在这]</div><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-  
-  
+<search>
+  <entry>
+    <title>老婆怀孕两个月了</title>
+    <url>/post/%E8%80%81%E5%A9%86%E6%80%80%E5%AD%95%E4%B8%A4%E4%B8%AA%E6%9C%88%E4%BA%86/</url>
+    <content><![CDATA[<p><img src="https://boringc-1306317834.cos.ap-shanghai.myqcloud.com/IMG_1009.jpg" alt="怀孕图片" title="怀孕图片"></p>
+<div class="video-container">
+[up主专用，视频内嵌代码贴在这]
+</div>
+
+<style>
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+</style>
+
+]]></content>
+  </entry>
 </search>
