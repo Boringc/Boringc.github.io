@@ -6,4 +6,84 @@
     <content><![CDATA[<p>接下来我要接着学习Hexo，还有markdown的写法</p>
 ]]></content>
   </entry>
+  <entry>
+    <title>Markdown学习语法1</title>
+    <url>/post/Markdown%E5%AD%A6%E4%B9%A0%E8%AF%AD%E6%B3%951/</url>
+    <content><![CDATA[<h1 id="标题一级"><a href="#标题一级" class="headerlink" title="标题一级"></a>标题一级</h1><h2 id="标题二级"><a href="#标题二级" class="headerlink" title="标题二级"></a>标题二级</h2><h3 id="标题三级"><a href="#标题三级" class="headerlink" title="标题三级"></a>标题三级</h3><h4 id="标题四级"><a href="#标题四级" class="headerlink" title="标题四级"></a>标题四级</h4><h5 id="标题五级"><a href="#标题五级" class="headerlink" title="标题五级"></a>标题五级</h5><h6 id="标题六级"><a href="#标题六级" class="headerlink" title="标题六级"></a>标题六级</h6><p>通过两个空格加回车实现换行  </p>
+<p>这样子换行可以保证兼容性  </p>
+<h1 id="强调用法"><a href="#强调用法" class="headerlink" title="强调用法"></a>强调用法</h1><p>通过在字体左右添加**来加粗字体  </p>
+<p>例如 <strong>示范文本</strong>  </p>
+<p>通过在字体左右添加*来倾斜字体 </p>
+<p>例如 <em>示范文本</em>  </p>
+<p>通过在字体左右添加***来加粗并倾斜字体 </p>
+<p>例如 <em><strong>示范文本</strong></em>     </p>
+<h1 id="多段落块引用"><a href="#多段落块引用" class="headerlink" title="多段落块引用"></a>多段落块引用</h1><h1 id="块引用"><a href="#块引用" class="headerlink" title="块引用"></a>块引用</h1><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">通过在段落前加&gt;符号，创建块引用 </span><br></pre></td></tr></table></figure>
+
+
+
+<blockquote>
+<p>通过在段落前加&gt;符号，创建块引用   </p>
+</blockquote>
+<h2 id="块引用可以包含多个段落。为段落之间的空白行添加一个-符号"><a href="#块引用可以包含多个段落。为段落之间的空白行添加一个-符号" class="headerlink" title="块引用可以包含多个段落。为段落之间的空白行添加一个&gt;符号"></a>块引用可以包含多个段落。为段落之间的空白行添加一个&gt;符号</h2><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">&gt; 多个段落的块引用</span><br><span class="line">&gt;</span><br><span class="line">&gt; typora里面可以直接回车生效</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>多个段落的块引用</p>
+<p>typora里面可以直接回车生效</p>
+</blockquote>
+<h1 id="嵌套块引用"><a href="#嵌套块引用" class="headerlink" title="嵌套块引用"></a>嵌套块引用</h1><p>块引用可以嵌套。 在要嵌套的段落前添加一个&gt;&gt;符号</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">&gt; Dorothy followed her through many of the beautiful rooms in her castle.</span><br><span class="line">&gt;</span><br><span class="line">&gt;&gt; The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>Dorothy followed her through many of the beautiful rooms in her castle.</p>
+<blockquote>
+<p>The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</p>
+</blockquote>
+</blockquote>
+<h2 id="带有其他元素的块引用"><a href="#带有其他元素的块引用" class="headerlink" title="带有其他元素的块引用"></a>带有其他元素的块引用</h2><p>块引用可以包含其他 Markdown 格式的元素。并非所有元素都可以使用，你需要进行实验以查看哪些元素有效。  </p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">&gt; #### The quarterly results look great!</span><br><span class="line">&gt;</span><br><span class="line">&gt; - Revenue was off the chart.</span><br><span class="line">&gt; - Profits were higher than ever.</span><br><span class="line">&gt;</span><br><span class="line">&gt;  *Everything* is going according to **plan**.</span><br></pre></td></tr></table></figure>
+
+
+<blockquote>
+<h4 id="The-quarterly-results-look-great"><a href="#The-quarterly-results-look-great" class="headerlink" title="The quarterly results look great!"></a>The quarterly results look great!</h4><ul>
+<li>Revenue was off the chart.</li>
+<li>Profits were higher than ever.</li>
+</ul>
+<p> <em>Everything</em> is going according to <strong>plan</strong>.</p>
+</blockquote>
+<!-- title	【必需】文章标题
+date	【必需】文章创建日期
+updated	【可选】文章更新日期
+tags	【可选】文章标签
+categories	【可选】文章分类
+keywords	【可选】文章关键字
+description	【可选】文章描述
+top_img	【可选】文章顶部图片
+cover	【可选】文章缩略图(如果没有设置 top_img,文章页顶部将显示缩略图，可设为 false/图片地址/留空)
+comments	【可选】显示文章评论模块(默认 true)
+toc	【可选】显示文章 TOC(默认为设置中 toc 的 enable 配置)
+toc_number	【可选】显示 toc_number(默认为设置中 toc 的 number 配置)
+toc_style_simple	【可选】显示 toc 简洁模式
+copyright	【可选】显示文章版权模块(默认为设置中 post_copyright 的 enable 配置)
+copyright_author	【可选】文章版权模块的文章作者
+copyright_author_href	【可选】文章版权模块的文章作者链接
+copyright_url	【可选】文章版权模块的文章连结链接
+copyright_info	【可选】文章版权模块的版权声明文字
+mathjax	【可选】显示 mathjax(当设置 mathjax 的 per_page: false 时，才需要配置，默认 false )
+katex	【可选】显示 katex (当设置 katex 的 per_page: false 时，才需要配置，默认 false )
+aplayer	【可选】在需要的页面加载 aplayer 的 js 和 css,请参考文章下面的音乐 配置
+highlight_shrink	【可选】配置代码框是否展开(true/false)(默认为设置中 highlight_shrink 的配置)
+aside	【可选】显示侧边栏 (默认 true)
+abcjs	【可选】加载 abcjs (当设置 abcjs 的 per_page: false 时，才需要配置，默认 false )
+noticeOutdate	【可选】文章过期提醒 (默认为设置中 noticeOutdate 的 enable 配置) -->
+
+
+]]></content>
+      <categories>
+        <category>Markdown语法</category>
+      </categories>
+      <tags>
+        <tag>学习</tag>
+        <tag>语法</tag>
+      </tags>
+  </entry>
 </search>
