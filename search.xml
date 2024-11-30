@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>这是我的第一篇博客</title>
-    <url>/post/%E8%BF%99%E6%98%AF%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<p>接下来我要接着学习Hexo，还有markdown的写法</p>
-]]></content>
-  </entry>
-  <entry>
     <title>Markdown学习语法1</title>
     <url>/post/Markdown%E5%AD%A6%E4%B9%A0%E8%AF%AD%E6%B3%951/</url>
-    <content><![CDATA[<h1 id="标题一级"><a href="#标题一级" class="headerlink" title="标题一级"></a>标题一级</h1><h2 id="标题二级"><a href="#标题二级" class="headerlink" title="标题二级"></a>标题二级</h2><h3 id="标题三级"><a href="#标题三级" class="headerlink" title="标题三级"></a>标题三级</h3><h4 id="标题四级"><a href="#标题四级" class="headerlink" title="标题四级"></a>标题四级</h4><h5 id="标题五级"><a href="#标题五级" class="headerlink" title="标题五级"></a>标题五级</h5><h6 id="标题六级"><a href="#标题六级" class="headerlink" title="标题六级"></a>标题六级</h6><p>通过两个空格加回车实现换行  </p>
-<p>这样子换行可以保证兼容性  </p>
-<h1 id="强调用法"><a href="#强调用法" class="headerlink" title="强调用法"></a>强调用法</h1><p>通过在字体左右添加**来加粗字体  </p>
-<p>例如 <strong>示范文本</strong>  </p>
-<p>通过在字体左右添加*来倾斜字体 </p>
-<p>例如 <em>示范文本</em>  </p>
-<p>通过在字体左右添加***来加粗并倾斜字体 </p>
-<p>例如 <em><strong>示范文本</strong></em>     </p>
-<h1 id="多段落块引用"><a href="#多段落块引用" class="headerlink" title="多段落块引用"></a>多段落块引用</h1><h1 id="块引用"><a href="#块引用" class="headerlink" title="块引用"></a>块引用</h1><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">通过在段落前加&gt;符号，创建块引用 </span><br></pre></td></tr></table></figure>
-
-
-
+    <content><![CDATA[<h1>标题一级</h1>
+<h2 id="标题二级">标题二级</h2>
+<h3 id="标题三级">标题三级</h3>
+<h4 id="标题四级">标题四级</h4>
+<h5 id="标题五级">标题五级</h5>
+<h6 id="标题六级">标题六级</h6>
+<p>通过两个空格加回车实现换行</p>
+<p>这样子换行可以保证兼容性</p>
+<h1>强调用法</h1>
+<p>通过在字体左右添加**来加粗字体</p>
+<p>例如 <strong>示范文本</strong></p>
+<p>通过在字体左右添加*来倾斜字体</p>
+<p>例如 <em>示范文本</em></p>
+<p>通过在字体左右添加***来加粗并倾斜字体</p>
+<p>例如 <em><strong>示范文本</strong></em></p>
+<h1>多段落块引用</h1>
+<h1>块引用</h1>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">通过在段落前加&gt;符号，创建块引用 </span><br></pre></td></tr></table></figure>
 <blockquote>
-<p>通过在段落前加&gt;符号，创建块引用   </p>
+<p>通过在段落前加&gt;符号，创建块引用</p>
 </blockquote>
-<h2 id="块引用可以包含多个段落。为段落之间的空白行添加一个-符号"><a href="#块引用可以包含多个段落。为段落之间的空白行添加一个-符号" class="headerlink" title="块引用可以包含多个段落。为段落之间的空白行添加一个&gt;符号"></a>块引用可以包含多个段落。为段落之间的空白行添加一个&gt;符号</h2><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">&gt; 多个段落的块引用</span><br><span class="line">&gt;</span><br><span class="line">&gt; typora里面可以直接回车生效</span><br></pre></td></tr></table></figure>
-
+<h2 id="块引用可以包含多个段落。为段落之间的空白行添加一个-符号">块引用可以包含多个段落。为段落之间的空白行添加一个&gt;符号</h2>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">&gt; 多个段落的块引用</span><br><span class="line">&gt;</span><br><span class="line">&gt; typora里面可以直接回车生效</span><br></pre></td></tr></table></figure>
 <blockquote>
 <p>多个段落的块引用</p>
 <p>typora里面可以直接回车生效</p>
 </blockquote>
-<h1 id="嵌套块引用"><a href="#嵌套块引用" class="headerlink" title="嵌套块引用"></a>嵌套块引用</h1><p>块引用可以嵌套。 在要嵌套的段落前添加一个&gt;&gt;符号</p>
+<h1>嵌套块引用</h1>
+<p>块引用可以嵌套。 在要嵌套的段落前添加一个&gt;&gt;符号</p>
 <figure class="highlight text"><table><tr><td class="code"><pre><span class="line">&gt; Dorothy followed her through many of the beautiful rooms in her castle.</span><br><span class="line">&gt;</span><br><span class="line">&gt;&gt; The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</span><br></pre></td></tr></table></figure>
-
 <blockquote>
 <p>Dorothy followed her through many of the beautiful rooms in her castle.</p>
 <blockquote>
 <p>The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</p>
 </blockquote>
 </blockquote>
-<h2 id="带有其他元素的块引用"><a href="#带有其他元素的块引用" class="headerlink" title="带有其他元素的块引用"></a>带有其他元素的块引用</h2><p>块引用可以包含其他 Markdown 格式的元素。并非所有元素都可以使用，你需要进行实验以查看哪些元素有效。  </p>
+<h2 id="带有其他元素的块引用">带有其他元素的块引用</h2>
+<p>块引用可以包含其他 Markdown 格式的元素。并非所有元素都可以使用，你需要进行实验以查看哪些元素有效。</p>
 <figure class="highlight text"><table><tr><td class="code"><pre><span class="line">&gt; #### The quarterly results look great!</span><br><span class="line">&gt;</span><br><span class="line">&gt; - Revenue was off the chart.</span><br><span class="line">&gt; - Profits were higher than ever.</span><br><span class="line">&gt;</span><br><span class="line">&gt;  *Everything* is going according to **plan**.</span><br></pre></td></tr></table></figure>
-
-
 <blockquote>
-<h4 id="The-quarterly-results-look-great"><a href="#The-quarterly-results-look-great" class="headerlink" title="The quarterly results look great!"></a>The quarterly results look great!</h4><ul>
+<h4 id="The-quarterly-results-look-great">The quarterly results look great!</h4>
+<ul>
 <li>Revenue was off the chart.</li>
 <li>Profits were higher than ever.</li>
 </ul>
-<p> <em>Everything</em> is going according to <strong>plan</strong>.</p>
+<p><em>Everything</em> is going according to <strong>plan</strong>.</p>
 </blockquote>
 <!-- title	【必需】文章标题
 date	【必需】文章创建日期
@@ -75,8 +75,6 @@ highlight_shrink	【可选】配置代码框是否展开(true/false)(默认为�
 aside	【可选】显示侧边栏 (默认 true)
 abcjs	【可选】加载 abcjs (当设置 abcjs 的 per_page: false 时，才需要配置，默认 false )
 noticeOutdate	【可选】文章过期提醒 (默认为设置中 noticeOutdate 的 enable 配置) -->
-
-
 ]]></content>
       <categories>
         <category>Markdown语法</category>
@@ -85,5 +83,73 @@ noticeOutdate	【可选】文章过期提醒 (默认为设置中 noticeOutdate �
         <tag>学习</tag>
         <tag>语法</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>资料分析-速算技巧</title>
+    <url>/post/%E8%B5%84%E6%96%99%E5%88%86%E6%9E%90-%E9%80%9F%E7%AE%97%E6%8A%80%E5%B7%A7/</url>
+    <content><![CDATA[<h1>一、速算技巧</h1>
+<h3 id="一步除法-建议只截分母">一步除法:建议只截分母</h3>
+<p><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mn>34567</mn><mn>12345</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac{34567}{12345}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.1901em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8451em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">12345</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">34567</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>  <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>⟶</mo></mrow><annotation encoding="application/x-tex">\longrightarrow</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.522em;vertical-align:-0.011em;"></span><span class="mrel">⟶</span></span></span></span>   <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mn>34567</mn><mn>12</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac{34567}{12}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.1901em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8451em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">12</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">34567</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></p>
+<h3 id="多步除法：建议分子、分母都截">多步除法：建议分子、分母都截</h3>
+<p><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mn>71774</mn><mn>47601</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac{71774}{47601}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.1901em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8451em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">47601</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">71774</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>  X   <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mn>12482</mn><mn>36283</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac{12482}{36283}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.1901em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8451em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">36283</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">12482</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span> <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>⟶</mo></mrow><annotation encoding="application/x-tex">\longrightarrow</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.522em;vertical-align:-0.011em;"></span><span class="mrel">⟶</span></span></span></span> <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mn>72</mn><mn>48</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac{72}{48}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.1901em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8451em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">48</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">72</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>  X   <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mn>12</mn><mn>36</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac{12}{36}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.1901em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8451em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">36</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">12</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></p>
+<h2 id="截几位？-看选项差距">截几位？ 看选项差距</h2>
+<h3 id="1-选项差距大（截-两位-）">1.选项差距大（截==两位==）</h3>
+<p>四个选项==首位==均不同  选项1. A.65     B.53     C.47      D.38</p>
+<p>首位相同，第二位差大于首位  选项2.A.65     B.53     C.59      D.47</p>
+<h3 id="2-选项差距小（截-三位-）">2.选项差距小（截==三位==）</h3>
+<p>首位相同==且第二位差==小于等于==首位== 选项2. A.55     B.54     C.53      D.52</p>
+<h4 id="99-的题目-都是直接截位">==99%的题目==都是直接截位</h4>
+<h4 id="只有当选项之间存在约-10、100倍等-关系时，需要先考虑量级，再截位计算">只有当选项之间存在约==10、100倍等==关系时，需要先考虑量级，再截位计算</h4>
+<h4 id="速算本身是灵活的，对多步除法：">速算本身是灵活的，对多步除法：</h4>
+<h5 id="选项差距大：上下截两位后约分化简（可微调±1）">选项差距大：上下截两位后约分化简（可微调±1）</h5>
+<h5 id="选项差距小：后面到基期比重时会有分析的办法">选项差距小：后面到基期比重时会有分析的办法</h5>
+<h1>分数比较</h1>
+<h2 id="分子分母一大一小">分子分母一大一小</h2>
+<h3 id="送分，直接看：-分子大的分数大（钱多人少）">送分，直接看：==分子大的分数大（钱多人少）==</h3>
+<p><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mn>6</mn><mn>7</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac{6}{7}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.1901em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8451em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">7</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">6</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>  与  <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mn>5</mn><mn>9</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac{5}{9}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.1901em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8451em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">9</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">5</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span> 	                                   	<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mn>253</mn><mn>31</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac{253}{31}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.1901em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8451em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">31</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">253</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>  与  <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mn>215</mn><mn>42</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac{215}{42}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.1901em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8451em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">42</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">215</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></p>
+<h2 id="分子分母同大同小">分子分母同大同小</h2>
+<p>竖着直接除：一般分母截两位计算即可</p>
+<p>横着看倍数：分子间倍数大，看分子，分子大的分数大   <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mn>6</mn><mn>7</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac{6}{7}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.1901em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8451em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">7</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">6</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>  与  <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mn>49</mn><mn>56</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac{49}{56}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.1901em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8451em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">56</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">49</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></p>
+<p>​			分母间倍数大，看分母，分母大的分数小  <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mn>224</mn><mn>23</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac{224}{23}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.1901em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8451em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">23</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">224</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>  与  <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mn>440</mn><mn>47</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac{440}{47}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.1901em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8451em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">47</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">440</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></p>
+<!-- title	【必需】文章标题
+date	【必需】文章创建日期
+updated	【可选】文章更新日期
+tags	【可选】文章标签
+categories	【可选】文章分类
+keywords	【可选】文章关键字
+description	【可选】文章描述
+top_img	【可选】文章顶部图片
+cover	【可选】文章缩略图(如果没有设置 top_img,文章页顶部将显示缩略图，可设为 false/图片地址/留空)
+comments	【可选】显示文章评论模块(默认 true)
+toc	【可选】显示文章 TOC(默认为设置中 toc 的 enable 配置)
+toc_number	【可选】显示 toc_number(默认为设置中 toc 的 number 配置)
+toc_style_simple	【可选】显示 toc 简洁模式
+copyright	【可选】显示文章版权模块(默认为设置中 post_copyright 的 enable 配置)
+copyright_author	【可选】文章版权模块的文章作者
+copyright_author_href	【可选】文章版权模块的文章作者链接
+copyright_url	【可选】文章版权模块的文章连结链接
+copyright_info	【可选】文章版权模块的版权声明文字
+mathjax	【可选】显示 mathjax(当设置 mathjax 的 per_page: false 时，才需要配置，默认 false )
+katex	【可选】显示 katex (当设置 katex 的 per_page: false 时，才需要配置，默认 false )
+aplayer	【可选】在需要的页面加载 aplayer 的 js 和 css,请参考文章下面的音乐 配置
+highlight_shrink	【可选】配置代码框是否展开(true/false)(默认为设置中 highlight_shrink 的配置)
+aside	【可选】显示侧边栏 (默认 true)
+abcjs	【可选】加载 abcjs (当设置 abcjs 的 per_page: false 时，才需要配置，默认 false )
+noticeOutdate	【可选】文章过期提醒 (默认为设置中 noticeOutdate 的 enable 配置) -->
+]]></content>
+      <categories>
+        <category>考公</category>
+      </categories>
+      <tags>
+        <tag>学习</tag>
+        <tag>技巧</tag>
+        <tag>资料分析</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>这是我的第一篇博客</title>
+    <url>/post/%E8%BF%99%E6%98%AF%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<p>接下来我要接着学习Hexo，还有markdown的写法</p>
+]]></content>
   </entry>
 </search>
