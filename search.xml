@@ -85,6 +85,64 @@ noticeOutdate	【可选】文章过期提醒 (默认为设置中 noticeOutdate �
       </tags>
   </entry>
   <entry>
+    <title>资料分析-基期与现期</title>
+    <url>/post/%E5%9F%BA%E6%9C%9F%E4%B8%8E%E7%8E%B0%E6%9C%9F/</url>
+    <content><![CDATA[<h1>基期与现期</h1>
+<p>时间靠前的为基期，时间靠后的为现期</p>
+<h1>增长量与增长率</h1>
+<p>增长量用来表述基期量与现期量变化的绝对值</p>
+<p>增长率用来表述基期量与现期量变化的相对量</p>
+<p>例       增长量：老邓2024年的工资比2023年增长了50元</p>
+<p>​           增长率：老邓2024年的工资比2023年增长了50%</p>
+<p><img src="https://80af204.webp.li/2024/12/1fa56f71b3ff14f973e9c04b8237929c.png" alt="image-20241201094700591"></p>
+<h2 id="基期量">基期量</h2>
+<p>基期 = 现期 — 增长量</p>
+<p>基期 = <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mtext>现期</mtext><mrow><mn>1</mn><mo>+</mo><mi>r</mi></mrow></mfrac></mrow><annotation encoding="application/x-tex">\frac{现期}{1+r}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.2757em;vertical-align:-0.4033em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8723em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span><span class="mbin mtight">+</span><span class="mord mathnormal mtight" style="margin-right:0.02778em;">r</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord cjk_fallback mtight">现期</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.4033em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></p>
+<p><img src="https://80af204.webp.li/2024/12/f0c51e7450b7d2057e7e53d799c53d60.png" alt="image-20241201231114668"></p>
+<h2 id="基期差值">基期差值</h2>
+<p><img src="https://80af204.webp.li/2024/12/8488f246bf65c6d43962bc4df6301f13.png" alt="image-20241202004419413"></p>
+<h2 id="同比与环比">同比与环比</h2>
+<p><img src="https://80af204.webp.li/2024/12/7c17014725ee4a0f66d7ef132b857b64.png" alt="image-20241202013430410"></p>
+<h2 id="现期量">现期量</h2>
+<p><img src="https://80af204.webp.li/2024/12/934d62d80870b4154f453a91ed5a7534.png" alt="image-20241202013548198"></p>
+<h3 id="保持增速不变算未来">保持增速不变算未来</h3>
+<p><img src="https://80af204.webp.li/2024/12/bab7fdcc56faa8c70b29bb3c9efa73f5.png" alt="image-20241202012037399"></p>
+<!-- title	【必需】文章标题
+date	【必需】文章创建日期
+updated	【可选】文章更新日期
+tags	【可选】文章标签
+categories	【可选】文章分类
+keywords	【可选】文章关键字
+description	【可选】文章描述
+top_img	【可选】文章顶部图片
+cover	【可选】文章缩略图(如果没有设置 top_img,文章页顶部将显示缩略图，可设为 false/图片地址/留空)
+comments	【可选】显示文章评论模块(默认 true)
+toc	【可选】显示文章 TOC(默认为设置中 toc 的 enable 配置)
+toc_number	【可选】显示 toc_number(默认为设置中 toc 的 number 配置)
+toc_style_simple	【可选】显示 toc 简洁模式
+copyright	【可选】显示文章版权模块(默认为设置中 post_copyright 的 enable 配置)
+copyright_author	【可选】文章版权模块的文章作者
+copyright_author_href	【可选】文章版权模块的文章作者链接
+copyright_url	【可选】文章版权模块的文章连结链接
+copyright_info	【可选】文章版权模块的版权声明文字
+mathjax	【可选】显示 mathjax(当设置 mathjax 的 per_page: false 时，才需要配置，默认 false )
+katex	【可选】显示 katex (当设置 katex 的 per_page: false 时，才需要配置，默认 false )
+aplayer	【可选】在需要的页面加载 aplayer 的 js 和 css,请参考文章下面的音乐 配置
+highlight_shrink	【可选】配置代码框是否展开(true/false)(默认为设置中 highlight_shrink 的配置)
+aside	【可选】显示侧边栏 (默认 true)
+abcjs	【可选】加载 abcjs (当设置 abcjs 的 per_page: false 时，才需要配置，默认 false )
+noticeOutdate	【可选】文章过期提醒 (默认为设置中 noticeOutdate 的 enable 配置) -->
+]]></content>
+      <categories>
+        <category>考公</category>
+      </categories>
+      <tags>
+        <tag>学习</tag>
+        <tag>技巧</tag>
+        <tag>资料分析</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>倍数和特殊增长率</title>
     <url>/post/%E5%80%8D%E6%95%B0%E5%92%8C%E7%89%B9%E6%AE%8A%E5%A2%9E%E9%95%BF%E7%8E%87/</url>
     <content><![CDATA[<h1>倍数</h1>
@@ -154,64 +212,6 @@ noticeOutdate	【可选】文章过期提醒 (默认为设置中 noticeOutdate �
         <tag>资料分析</tag>
         <tag>倍数</tag>
         <tag>特殊增长率</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>资料分析-基期与现期</title>
-    <url>/post/%E5%9F%BA%E6%9C%9F%E4%B8%8E%E7%8E%B0%E6%9C%9F/</url>
-    <content><![CDATA[<h1>基期与现期</h1>
-<p>时间靠前的为基期，时间靠后的为现期</p>
-<h1>增长量与增长率</h1>
-<p>增长量用来表述基期量与现期量变化的绝对值</p>
-<p>增长率用来表述基期量与现期量变化的相对量</p>
-<p>例       增长量：老邓2024年的工资比2023年增长了50元</p>
-<p>​           增长率：老邓2024年的工资比2023年增长了50%</p>
-<p><img src="https://80af204.webp.li/2024/12/1fa56f71b3ff14f973e9c04b8237929c.png" alt="image-20241201094700591"></p>
-<h2 id="基期量">基期量</h2>
-<p>基期 = 现期 — 增长量</p>
-<p>基期 = <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mtext>现期</mtext><mrow><mn>1</mn><mo>+</mo><mi>r</mi></mrow></mfrac></mrow><annotation encoding="application/x-tex">\frac{现期}{1+r}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.2757em;vertical-align:-0.4033em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8723em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span><span class="mbin mtight">+</span><span class="mord mathnormal mtight" style="margin-right:0.02778em;">r</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord cjk_fallback mtight">现期</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.4033em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></p>
-<p><img src="https://80af204.webp.li/2024/12/f0c51e7450b7d2057e7e53d799c53d60.png" alt="image-20241201231114668"></p>
-<h2 id="基期差值">基期差值</h2>
-<p><img src="https://80af204.webp.li/2024/12/8488f246bf65c6d43962bc4df6301f13.png" alt="image-20241202004419413"></p>
-<h2 id="同比与环比">同比与环比</h2>
-<p><img src="https://80af204.webp.li/2024/12/7c17014725ee4a0f66d7ef132b857b64.png" alt="image-20241202013430410"></p>
-<h2 id="现期量">现期量</h2>
-<p><img src="https://80af204.webp.li/2024/12/934d62d80870b4154f453a91ed5a7534.png" alt="image-20241202013548198"></p>
-<h3 id="保持增速不变算未来">保持增速不变算未来</h3>
-<p><img src="https://80af204.webp.li/2024/12/bab7fdcc56faa8c70b29bb3c9efa73f5.png" alt="image-20241202012037399"></p>
-<!-- title	【必需】文章标题
-date	【必需】文章创建日期
-updated	【可选】文章更新日期
-tags	【可选】文章标签
-categories	【可选】文章分类
-keywords	【可选】文章关键字
-description	【可选】文章描述
-top_img	【可选】文章顶部图片
-cover	【可选】文章缩略图(如果没有设置 top_img,文章页顶部将显示缩略图，可设为 false/图片地址/留空)
-comments	【可选】显示文章评论模块(默认 true)
-toc	【可选】显示文章 TOC(默认为设置中 toc 的 enable 配置)
-toc_number	【可选】显示 toc_number(默认为设置中 toc 的 number 配置)
-toc_style_simple	【可选】显示 toc 简洁模式
-copyright	【可选】显示文章版权模块(默认为设置中 post_copyright 的 enable 配置)
-copyright_author	【可选】文章版权模块的文章作者
-copyright_author_href	【可选】文章版权模块的文章作者链接
-copyright_url	【可选】文章版权模块的文章连结链接
-copyright_info	【可选】文章版权模块的版权声明文字
-mathjax	【可选】显示 mathjax(当设置 mathjax 的 per_page: false 时，才需要配置，默认 false )
-katex	【可选】显示 katex (当设置 katex 的 per_page: false 时，才需要配置，默认 false )
-aplayer	【可选】在需要的页面加载 aplayer 的 js 和 css,请参考文章下面的音乐 配置
-highlight_shrink	【可选】配置代码框是否展开(true/false)(默认为设置中 highlight_shrink 的配置)
-aside	【可选】显示侧边栏 (默认 true)
-abcjs	【可选】加载 abcjs (当设置 abcjs 的 per_page: false 时，才需要配置，默认 false )
-noticeOutdate	【可选】文章过期提醒 (默认为设置中 noticeOutdate 的 enable 配置) -->
-]]></content>
-      <categories>
-        <category>考公</category>
-      </categories>
-      <tags>
-        <tag>学习</tag>
-        <tag>技巧</tag>
-        <tag>资料分析</tag>
       </tags>
   </entry>
   <entry>
@@ -317,6 +317,55 @@ noticeOutdate	【可选】文章过期提醒 (默认为设置中 noticeOutdate �
       </tags>
   </entry>
   <entry>
+    <title>平均数问题</title>
+    <url>/post/%E5%B9%B3%E5%9D%87%E6%95%B0%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<h1>平均数</h1>
+<h2 id="现期平均数">现期平均数</h2>
+<p><img src="https://80af204.webp.li/2024/12/499a29e7bbbf58443b849787d65efd4f.png" alt="image-20241206162855918"></p>
+<p><img src="https://80af204.webp.li/2024/12/6d2ae184f2a0f0b1e65683e2c9f3604b.png" alt="image-20241206164211206"></p>
+<h2 id="基期平均数">基期平均数</h2>
+<p><img src="https://80af204.webp.li/2024/12/9071660c3782551adf0d7548fe925b75.png" alt="image-20241206165639474"></p>
+<h2 id="两期平均数">两期平均数</h2>
+<p><img src="https://80af204.webp.li/2024/12/286d476f9b28272168a6caa8c98f78c9.png" alt="image-20241206170226671"></p>
+<h3 id="两期平均-计算：平均数的增长率">两期平均-计算：平均数的增长率</h3>
+<p><img src="https://80af204.webp.li/2024/12/ad1e191b280d04374c335d06ead1360d.png" alt="image-20241206171907527"></p>
+<p><img src="https://80af204.webp.li/2024/12/f5a3111f638add3c56d7e5ffebe8a4e3.png" alt="image-20241206171948371"></p>
+<!-- title	【必需】文章标题
+date	【必需】文章创建日期
+updated	【可选】文章更新日期
+tags	【可选】文章标签
+categories	【可选】文章分类
+keywords	【可选】文章关键字
+description	【可选】文章描述
+top_img	【可选】文章顶部图片
+cover	【可选】文章缩略图(如果没有设置 top_img,文章页顶部将显示缩略图，可设为 false/图片地址/留空)
+comments	【可选】显示文章评论模块(默认 true)
+toc	【可选】显示文章 TOC(默认为设置中 toc 的 enable 配置)
+toc_number	【可选】显示 toc_number(默认为设置中 toc 的 number 配置)
+toc_style_simple	【可选】显示 toc 简洁模式
+copyright	【可选】显示文章版权模块(默认为设置中 post_copyright 的 enable 配置)
+copyright_author	【可选】文章版权模块的文章作者
+copyright_author_href	【可选】文章版权模块的文章作者链接
+copyright_url	【可选】文章版权模块的文章连结链接
+copyright_info	【可选】文章版权模块的版权声明文字
+mathjax	【可选】显示 mathjax(当设置 mathjax 的 per_page: false 时，才需要配置，默认 false )
+katex	【可选】显示 katex (当设置 katex 的 per_page: false 时，才需要配置，默认 false )
+aplayer	【可选】在需要的页面加载 aplayer 的 js 和 css,请参考文章下面的音乐 配置
+highlight_shrink	【可选】配置代码框是否展开(true/false)(默认为设置中 highlight_shrink 的配置)
+aside	【可选】显示侧边栏 (默认 true)
+abcjs	【可选】加载 abcjs (当设置 abcjs 的 per_page: false 时，才需要配置，默认 false )
+noticeOutdate	【可选】文章过期提醒 (默认为设置中 noticeOutdate 的 enable 配置) -->
+]]></content>
+      <categories>
+        <category>考公</category>
+      </categories>
+      <tags>
+        <tag>学习</tag>
+        <tag>技巧</tag>
+        <tag>资料分析</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>资料分析-比重问题</title>
     <url>/post/%E6%AF%94%E9%87%8D%E9%97%AE%E9%A2%98/</url>
     <content><![CDATA[<h1>比重问题</h1>
@@ -388,55 +437,6 @@ noticeOutdate	【可选】文章过期提醒 (默认为设置中 noticeOutdate �
         <tag>基期比重</tag>
         <tag>现期比重</tag>
         <tag>两期比重</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>平均数问题</title>
-    <url>/post/%E5%B9%B3%E5%9D%87%E6%95%B0%E9%97%AE%E9%A2%98/</url>
-    <content><![CDATA[<h1>平均数</h1>
-<h2 id="现期平均数">现期平均数</h2>
-<p><img src="https://80af204.webp.li/2024/12/499a29e7bbbf58443b849787d65efd4f.png" alt="image-20241206162855918"></p>
-<p><img src="https://80af204.webp.li/2024/12/6d2ae184f2a0f0b1e65683e2c9f3604b.png" alt="image-20241206164211206"></p>
-<h2 id="基期平均数">基期平均数</h2>
-<p><img src="https://80af204.webp.li/2024/12/9071660c3782551adf0d7548fe925b75.png" alt="image-20241206165639474"></p>
-<h2 id="两期平均数">两期平均数</h2>
-<p><img src="https://80af204.webp.li/2024/12/286d476f9b28272168a6caa8c98f78c9.png" alt="image-20241206170226671"></p>
-<h3 id="两期平均-计算：平均数的增长率">两期平均-计算：平均数的增长率</h3>
-<p><img src="https://80af204.webp.li/2024/12/ad1e191b280d04374c335d06ead1360d.png" alt="image-20241206171907527"></p>
-<p><img src="https://80af204.webp.li/2024/12/f5a3111f638add3c56d7e5ffebe8a4e3.png" alt="image-20241206171948371"></p>
-<!-- title	【必需】文章标题
-date	【必需】文章创建日期
-updated	【可选】文章更新日期
-tags	【可选】文章标签
-categories	【可选】文章分类
-keywords	【可选】文章关键字
-description	【可选】文章描述
-top_img	【可选】文章顶部图片
-cover	【可选】文章缩略图(如果没有设置 top_img,文章页顶部将显示缩略图，可设为 false/图片地址/留空)
-comments	【可选】显示文章评论模块(默认 true)
-toc	【可选】显示文章 TOC(默认为设置中 toc 的 enable 配置)
-toc_number	【可选】显示 toc_number(默认为设置中 toc 的 number 配置)
-toc_style_simple	【可选】显示 toc 简洁模式
-copyright	【可选】显示文章版权模块(默认为设置中 post_copyright 的 enable 配置)
-copyright_author	【可选】文章版权模块的文章作者
-copyright_author_href	【可选】文章版权模块的文章作者链接
-copyright_url	【可选】文章版权模块的文章连结链接
-copyright_info	【可选】文章版权模块的版权声明文字
-mathjax	【可选】显示 mathjax(当设置 mathjax 的 per_page: false 时，才需要配置，默认 false )
-katex	【可选】显示 katex (当设置 katex 的 per_page: false 时，才需要配置，默认 false )
-aplayer	【可选】在需要的页面加载 aplayer 的 js 和 css,请参考文章下面的音乐 配置
-highlight_shrink	【可选】配置代码框是否展开(true/false)(默认为设置中 highlight_shrink 的配置)
-aside	【可选】显示侧边栏 (默认 true)
-abcjs	【可选】加载 abcjs (当设置 abcjs 的 per_page: false 时，才需要配置，默认 false )
-noticeOutdate	【可选】文章过期提醒 (默认为设置中 noticeOutdate 的 enable 配置) -->
-]]></content>
-      <categories>
-        <category>考公</category>
-      </categories>
-      <tags>
-        <tag>学习</tag>
-        <tag>技巧</tag>
-        <tag>资料分析</tag>
       </tags>
   </entry>
   <entry>
