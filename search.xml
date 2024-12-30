@@ -317,55 +317,6 @@ noticeOutdate	【可选】文章过期提醒 (默认为设置中 noticeOutdate �
       </tags>
   </entry>
   <entry>
-    <title>平均数问题</title>
-    <url>/post/%E5%B9%B3%E5%9D%87%E6%95%B0%E9%97%AE%E9%A2%98/</url>
-    <content><![CDATA[<h1>平均数</h1>
-<h2 id="现期平均数">现期平均数</h2>
-<p><img src="https://80af204.webp.li/2024/12/499a29e7bbbf58443b849787d65efd4f.png" alt="image-20241206162855918"></p>
-<p><img src="https://80af204.webp.li/2024/12/6d2ae184f2a0f0b1e65683e2c9f3604b.png" alt="image-20241206164211206"></p>
-<h2 id="基期平均数">基期平均数</h2>
-<p><img src="https://80af204.webp.li/2024/12/9071660c3782551adf0d7548fe925b75.png" alt="image-20241206165639474"></p>
-<h2 id="两期平均数">两期平均数</h2>
-<p><img src="https://80af204.webp.li/2024/12/286d476f9b28272168a6caa8c98f78c9.png" alt="image-20241206170226671"></p>
-<h3 id="两期平均-计算：平均数的增长率">两期平均-计算：平均数的增长率</h3>
-<p><img src="https://80af204.webp.li/2024/12/ad1e191b280d04374c335d06ead1360d.png" alt="image-20241206171907527"></p>
-<p><img src="https://80af204.webp.li/2024/12/f5a3111f638add3c56d7e5ffebe8a4e3.png" alt="image-20241206171948371"></p>
-<!-- title	【必需】文章标题
-date	【必需】文章创建日期
-updated	【可选】文章更新日期
-tags	【可选】文章标签
-categories	【可选】文章分类
-keywords	【可选】文章关键字
-description	【可选】文章描述
-top_img	【可选】文章顶部图片
-cover	【可选】文章缩略图(如果没有设置 top_img,文章页顶部将显示缩略图，可设为 false/图片地址/留空)
-comments	【可选】显示文章评论模块(默认 true)
-toc	【可选】显示文章 TOC(默认为设置中 toc 的 enable 配置)
-toc_number	【可选】显示 toc_number(默认为设置中 toc 的 number 配置)
-toc_style_simple	【可选】显示 toc 简洁模式
-copyright	【可选】显示文章版权模块(默认为设置中 post_copyright 的 enable 配置)
-copyright_author	【可选】文章版权模块的文章作者
-copyright_author_href	【可选】文章版权模块的文章作者链接
-copyright_url	【可选】文章版权模块的文章连结链接
-copyright_info	【可选】文章版权模块的版权声明文字
-mathjax	【可选】显示 mathjax(当设置 mathjax 的 per_page: false 时，才需要配置，默认 false )
-katex	【可选】显示 katex (当设置 katex 的 per_page: false 时，才需要配置，默认 false )
-aplayer	【可选】在需要的页面加载 aplayer 的 js 和 css,请参考文章下面的音乐 配置
-highlight_shrink	【可选】配置代码框是否展开(true/false)(默认为设置中 highlight_shrink 的配置)
-aside	【可选】显示侧边栏 (默认 true)
-abcjs	【可选】加载 abcjs (当设置 abcjs 的 per_page: false 时，才需要配置，默认 false )
-noticeOutdate	【可选】文章过期提醒 (默认为设置中 noticeOutdate 的 enable 配置) -->
-]]></content>
-      <categories>
-        <category>考公</category>
-      </categories>
-      <tags>
-        <tag>学习</tag>
-        <tag>技巧</tag>
-        <tag>资料分析</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>资料分析-比重问题</title>
     <url>/post/%E6%AF%94%E9%87%8D%E9%97%AE%E9%A2%98/</url>
     <content><![CDATA[<h1>比重问题</h1>
@@ -437,6 +388,55 @@ noticeOutdate	【可选】文章过期提醒 (默认为设置中 noticeOutdate �
         <tag>基期比重</tag>
         <tag>现期比重</tag>
         <tag>两期比重</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>平均数问题</title>
+    <url>/post/%E5%B9%B3%E5%9D%87%E6%95%B0%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<h1>平均数</h1>
+<h2 id="现期平均数">现期平均数</h2>
+<p><img src="https://80af204.webp.li/2024/12/499a29e7bbbf58443b849787d65efd4f.png" alt="image-20241206162855918"></p>
+<p><img src="https://80af204.webp.li/2024/12/6d2ae184f2a0f0b1e65683e2c9f3604b.png" alt="image-20241206164211206"></p>
+<h2 id="基期平均数">基期平均数</h2>
+<p><img src="https://80af204.webp.li/2024/12/9071660c3782551adf0d7548fe925b75.png" alt="image-20241206165639474"></p>
+<h2 id="两期平均数">两期平均数</h2>
+<p><img src="https://80af204.webp.li/2024/12/286d476f9b28272168a6caa8c98f78c9.png" alt="image-20241206170226671"></p>
+<h3 id="两期平均-计算：平均数的增长率">两期平均-计算：平均数的增长率</h3>
+<p><img src="https://80af204.webp.li/2024/12/ad1e191b280d04374c335d06ead1360d.png" alt="image-20241206171907527"></p>
+<p><img src="https://80af204.webp.li/2024/12/f5a3111f638add3c56d7e5ffebe8a4e3.png" alt="image-20241206171948371"></p>
+<!-- title	【必需】文章标题
+date	【必需】文章创建日期
+updated	【可选】文章更新日期
+tags	【可选】文章标签
+categories	【可选】文章分类
+keywords	【可选】文章关键字
+description	【可选】文章描述
+top_img	【可选】文章顶部图片
+cover	【可选】文章缩略图(如果没有设置 top_img,文章页顶部将显示缩略图，可设为 false/图片地址/留空)
+comments	【可选】显示文章评论模块(默认 true)
+toc	【可选】显示文章 TOC(默认为设置中 toc 的 enable 配置)
+toc_number	【可选】显示 toc_number(默认为设置中 toc 的 number 配置)
+toc_style_simple	【可选】显示 toc 简洁模式
+copyright	【可选】显示文章版权模块(默认为设置中 post_copyright 的 enable 配置)
+copyright_author	【可选】文章版权模块的文章作者
+copyright_author_href	【可选】文章版权模块的文章作者链接
+copyright_url	【可选】文章版权模块的文章连结链接
+copyright_info	【可选】文章版权模块的版权声明文字
+mathjax	【可选】显示 mathjax(当设置 mathjax 的 per_page: false 时，才需要配置，默认 false )
+katex	【可选】显示 katex (当设置 katex 的 per_page: false 时，才需要配置，默认 false )
+aplayer	【可选】在需要的页面加载 aplayer 的 js 和 css,请参考文章下面的音乐 配置
+highlight_shrink	【可选】配置代码框是否展开(true/false)(默认为设置中 highlight_shrink 的配置)
+aside	【可选】显示侧边栏 (默认 true)
+abcjs	【可选】加载 abcjs (当设置 abcjs 的 per_page: false 时，才需要配置，默认 false )
+noticeOutdate	【可选】文章过期提醒 (默认为设置中 noticeOutdate 的 enable 配置) -->
+]]></content>
+      <categories>
+        <category>考公</category>
+      </categories>
+      <tags>
+        <tag>学习</tag>
+        <tag>技巧</tag>
+        <tag>资料分析</tag>
       </tags>
   </entry>
   <entry>
